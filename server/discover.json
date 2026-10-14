@@ -1,0 +1,20 @@
+[
+  { "name": "Hypixel", "address": "mc.hypixel.net", "region": "global", "tags": ["minigame", "skyblock", "pvp"], "description": "Dünyanın en büyük minigame sunucusu: SkyBlock, BedWars, SkyWars." },
+  { "name": "CraftRise", "address": "mc.craftrise.network", "region": "tr", "tags": ["minigame", "pvp", "skyblock"], "description": "Türkiye'nin en büyük sunucularından; BedWars, SkyWars, SkyBlock." },
+  { "name": "CraftLime", "address": "oyna.craftlime.net", "region": "tr", "tags": ["survival"], "description": "Türk Towny ve survival sunucusu." },
+  { "name": "PikaNetwork", "address": "play.pika-network.net", "region": "global", "tags": ["minigame", "pvp", "survival", "skyblock"], "description": "BedWars, Practice, OP Factions ve Survival." },
+  { "name": "Minemen Club", "address": "minemen.club", "region": "global", "tags": ["pvp"], "description": "Rekabetçi Practice PvP ve ranked maçlar." },
+  { "name": "Wynncraft", "address": "play.wynncraft.com", "region": "global", "tags": ["rpg"], "description": "Görevler, zindanlar ve sınıflarla dev bir MMORPG." },
+  { "name": "ManaCube", "address": "play.manacube.com", "region": "global", "tags": ["skyblock", "survival", "minigame"], "description": "SkyBlock, Parkour, Prison ve Survival." },
+  { "name": "CubeCraft", "address": "play.cubecraft.net", "region": "global", "tags": ["minigame", "pvp"], "description": "EggWars, SkyWars ve Lucky Islands." },
+  { "name": "JartexNetwork", "address": "jartexnetwork.com", "region": "global", "tags": ["minigame", "skyblock", "pvp"], "description": "BedWars, SkyBlock ve Prison modları." },
+  { "name": "Hoplite", "address": "hoplite.gg", "region": "global", "tags": ["pvp"], "description": "Battle Royale tarzı PvP." },
+  { "name": "BlocksMC", "address": "blocksmc.com", "region": "global", "tags": ["minigame", "pvp"], "description": "BedWars, SkyWars ve Practice PvP." },
+  { "name": "GommeHD", "address": "gommehd.net", "region": "global", "tags": ["minigame", "pvp"], "description": "Avrupa'nın büyük minigame ağlarından." },
+  { "name": "MCC Island", "address": "play.mccisland.net", "region": "global", "tags": ["minigame"], "description": "Minecraft Championship'in resmi minigame sunucusu." },
+  { "name": "OPBlocks", "address": "play.opblocks.com", "region": "global", "tags": ["skyblock", "survival"], "description": "Skyblock, Survival ve Prison." },
+  { "name": "ExtremeCraft", "address": "play.extremecraft.net", "region": "global", "tags": ["survival"], "description": "Özel eşyalar ve boss'larla survival." },
+  { "name": "Minehut", "address": "minehut.com", "region": "global", "tags": ["survival", "minigame"], "description": "Oyuncuların kurduğu binlerce sunucuya kapı." },
+  { "name": "Purple Prison", "address": "play.purpleprison.net", "region": "global", "tags": ["survival"], "description": "Klasik Prison sunucusu." },
+  { "name": "Mineplex", "address": "play.mineplex.com", "region": "global", "tags": ["minigame"], "description": "Efsanevi minigame ağı, yeniden açık." }
+]

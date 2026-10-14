@@ -1,0 +1,74 @@
+{
+  "name": "hexrona",
+  "version": "0.1.0",
+  "description": "Hexrona Minecraft Launcher",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "concurrently -k -n vite,electron -c cyan,green \"vite\" \"wait-on tcp:5173 && cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electron .\"",
+    "build": "vite build",
+    "start": "vite build && electron .",
+    "dist": "vite build && electron-builder --publish never",
+    "release": "vite build && electron-builder --publish always",
+    "start:all": "vite build && cross-env HEXRONA_LOCAL_SERVER=1 HEXRONA_API_URL=http://localhost:8787 electron ."
+  },
+  "author": "Hexrona",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.6",
+    "cross-env": "^10.1.0",
+    "dompurify": "^3.4.17",
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "vite": "^8.3.4",
+    "wait-on": "^9.5.1"
+  },
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.5.1",
+    "@xmcl/core": "2.15.1",
+    "@xmcl/installer": "6.1.2",
+    "@xmcl/task": "4.1.1",
+    "electron-updater": "^6.8.9"
+  },
+  "productName": "Hexrona",
+  "private": true,
+  "build": {
+    "appId": "com.hexrona.launcher",
+    "productName": "Hexrona",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**",
+      "electron/**",
+      "package.json",
+      "yt.jpg"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "exesayc",
+        "repo": "hexrona"
+      }
+    ]
+  },
+  "hexrona": {
+    "discordClientId": "1559566789128626308",
+    "apiUrl": "http://85.235.75.118:8787"
+  }
+}
